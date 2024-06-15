@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,500;0,600;0,700;1,500;1,600&display=swap");
+
+
+.recipe-list {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+.App-header {
+  margin-bottom: 20px;
+}
+
+.App-header h1 {
+  font-size: 2.5rem; /* Ajustando o tamanho do título h1 */
+  color: #333; /* Cor do texto */
+}
+
+.App-header p {
+  font-size: 1.2rem; /* Ajustando o tamanho do parágrafo */
+  color: #666; /* Cor do texto */
+  margin-bottom: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+}
+
+.footer p{
+  /* ↑ Estilo do texto do footer. */
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-decoration: none; 
+  font-weight: bold;
+}
+  
+
+.language-buttons button {
+  /* ↑ Estilo para o os alteradores de linguagem. */
+  background-color: transparent;
+  border: none;
+  color: rgb(0, 0, 0); /* ← ou a cor desejada para o texto */
+  text-decoration: none;
+  cursor: pointer; /* ← Ponteiro do mouse personalizado. */
+  padding: 10px; /* ← Espaçamento interno entre os botões */
+  font-family: "Raleway", sans-serif;
+}
+
+.language-buttons button:last-child {
+  /* ↑ último botão. */
+  margin-right: 0; /* ← Remove a margem do último botão */
+}
+
+.language-buttons button.active {
+  /* ↑ Adicione estilos específicos para o botão ativo se desejar */
+  font-weight: bold;
+}
